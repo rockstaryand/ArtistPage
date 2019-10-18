@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ArtistProfile</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAryg9v5cTktSFl0K5bkH7uv0tXEkavtIA",
+    authDomain: "beatsbyyand-4e7a0.firebaseapp.com",
+    databaseURL: "https://beatsbyyand-4e7a0.firebaseio.com",
+    projectId: "beatsbyyand-4e7a0",
+    storageBucket: "",
+  
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+<div id="home">
+<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="index.html"><img src="img/smalllogo.png"> </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a> 
+				
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Stream</a>
+					
+				</li>
+					
+					
+					<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a> 
+							
+					</li>
+			</ul>
+		</div>
+	</nav>
+<!-- this is the start of the Image Slider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+<ol class="carousel-indicators">
+	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	
+	<!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+</ol>
+	<div class="carousel-inner" role="listbox">
+		<!-- Slide 1 -->
+		<div class="carousel-item active" style="background-image: url(img/anotherone.jpg);">
+		
+			<div class="carousel-caption text-center-jumbotron">
+			<h2>Artist</h2>
+			<h4>Discover local talent!!!</h4>
+			<a class="btn btn-outline-light btn-lg right carousel-control" href="#carouselExampleIndicators" data-slide="next">Connect</a>
+			</div>
+		</div>
+		<!-- Slide 2 -->
+
+<div class="col-12">
+	<div id="portfolio" class="offset">
+		<div class="jumbotron container-fluid">
+		
+			
+		 <div class="media col-md-4 col-xs-6">
+				<img src="img/smallrockstaryand.png" class="img-responsive mr-3" alt="...">
+				<div class="media-body">
+				  <h3 class="mt-0 heading">Stream Music By 
+						Rockstar Yan'D</h3>
+						Local Artist from Cape Town
+				</div>
+		</div>
+		<div class="heading-underline"></div>
+	</div>
+<div class="row no-padding">
+	<div class="col-sm-3">
+		<div class="portfolio">
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/656708804&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+			
+		</div>
+	</div>
+	<div class="col-sm-3">
+			<div class="portfolio">
+					<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/320166161&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+				
+			</div>
+		</div>
+		<div class="col-sm-3">
+				<div class="portfolio">
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/668924102%3Fsecret_token%3Ds-dawe1&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+				</div>
+		</div>
+		<div class="col-sm-3">
+				<div class="portfolio">
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579470247&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					
+				</div>
+		</div>
+		<div class="narrow text-center-jumbotron">
+			<div class="col-12">
+				<p class="lead">Do you wanna check out more of my Music?</p>
+				<a class="btn btn-secondary btn-md" href="https://soundcloud.com/rockstaryand" target="_blank">More Songs</a>
+			</div>
+		</div>
+
+
+
+ </div><!-- End Row -->
+	</div>
+	<!-- End of jumbotron -->
+
+
+
+</div>
+
+
+
+ <div id="features">
+
+</div>
+<div id="pricing">
+	<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" name="hosted_button_id" value="2FNN5RULGD8HS">
+		<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form> -->
+		
+</div>
+<div id="genres">
+	  
+</div>
+<div id="contact" class="offset">
+		  <footer><div class="row justify-content-center text-center">
+			  <div class="col-md-5 ">
+				  <img src="img/smalllogo.png" alt="">
+				  <p>Beatsbyyand is a registered instrumentals company based in Cape Town which provides you with high quality beats at affordable prices.</p>
+				  <strong>Contact Info</strong>
+				  <p>(+27)-78-911-8228 <br> officialyandmusic@gmail.com</p>
+				  <a href="https://www.facebook.com/rockstaryand/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				  <a href="https://twitter.com/officialyand" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				  <a href="https://www.instagram.com/officialyand/" target="_blank"><i class="fab fa-instagram"></i></a>
+			  </div>
+			 <hr class="socket">
+			  &copy; Beatsbyyand.
+
+		  </div>
+		</footer>  
+		 
+</div>
+
+ 
+ 
+
+
+
+
+</body>
+</html>
+
+
+
+
+	<!-- <span class="arrow">&#x25BC</span>
+					</a>
+					<ul class="submenu">
+						<li><a href="#">Licensing</a></li>
+						<li><a href="#">Monetization</a></li> 
+		
+					</ul> -->
+
+
+
+
+<!-- View in Browser: Drew's #1 Trending YouTube Tutorial -->
+<!-- <div class="youtube-tutorial">
+	<a href="http://bit.ly/build-4-websites" target="_blank">
+    <img src="https://www.w3newbie.com/wp-content/uploads/nuno-youtube-banner-img.png">
+  </a>
+</div> -->
+<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+
